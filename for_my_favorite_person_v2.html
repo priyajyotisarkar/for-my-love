@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#fff5f8">
+<meta name="description" content="A little corner of the internet made with love, just for My Love.">
+<title>For My Love ♡</title>
+<style>
+:root{--ink:#392d3b;--muted:#837382;--pink:#ed719b;--pink-dark:#ce4f80;--blush:#fff0f5;--cream:#fffaf7;--lav:#f1edff;--line:#f6dce6;--shadow:0 22px 65px #7d4c6817}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-height:100vh;color:var(--ink);font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:radial-gradient(circle at 8% 4%,#ffe1ec 0,transparent 29%),radial-gradient(circle at 94% 70%,#e9e4ff 0,transparent 30%),var(--cream);overflow-x:hidden}button{font:inherit;cursor:pointer}button:focus-visible,a:focus-visible{outline:3px solid #b68ce5;outline-offset:4px}.page{width:min(100% - 28px,850px);margin:0 auto;padding:28px 0 35px}.top{text-align:center;margin:5px 0 20px}.eyebrow{font-size:.72rem;letter-spacing:.19em;text-transform:uppercase;color:var(--muted)}.top .mini-heart{color:var(--pink);font-size:1.1rem;margin:0 6px}.hero,.panel{background:#ffffffd9;border:1px solid #ffffffed;border-radius:30px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}.hero{position:relative;text-align:center;padding:clamp(26px,6vw,58px) clamp(18px,6vw,54px) 36px;overflow:hidden}.float{position:absolute;color:#ee8caf;opacity:.65;animation:bob 4s ease-in-out infinite}.f1{top:8%;left:8%;font-size:1.5rem}.f2{top:14%;right:9%;font-size:1.2rem;animation-delay:1s}.f3{bottom:10%;right:8%;font-size:1.5rem;animation-delay:1.6s}.heart-icon{height:76px;width:76px;border-radius:26px;background:linear-gradient(140deg,#ffabc6,#ed6899);color:white;display:grid;place-items:center;margin:0 auto 23px;font-size:2.2rem;box-shadow:0 12px 28px #f18ab04a;transform:rotate(-5deg)}h1,h2{font-family:Georgia,"Times New Roman",serif;font-weight:500;letter-spacing:-.04em}h1{font-size:clamp(2.6rem,8vw,4.7rem);line-height:1.02;margin:0 auto 18px;max-width:680px}h1 em{font-style:normal;color:var(--pink-dark)}.intro{max-width:540px;margin:0 auto;color:var(--muted);line-height:1.85;font-size:1.02rem}.divider{height:3px;width:48px;border-radius:5px;background:#ffc3d6;margin:26px auto}.love-note{max-width:590px;margin:auto;background:linear-gradient(135deg,#fff6f9,#fffaf8);border:1px solid var(--line);border-radius:21px;padding:21px 23px;text-align:left;line-height:1.85;color:#665563}.love-note strong{color:var(--pink-dark)}.actions{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:24px 0 0}.btn{border:0;border-radius:999px;padding:13px 18px;background:white;color:var(--ink);box-shadow:0 5px 18px #44304a12;transition:transform .2s,box-shadow .2s}.btn:hover{transform:translateY(-2px);box-shadow:0 9px 22px #44304a1b}.btn.primary{background:linear-gradient(135deg,#ff94b5,#e85f91);color:#fff;box-shadow:0 8px 20px #f18ab044}.btn.lav{background:var(--lav);color:#65549a}.response{min-height:54px;max-width:550px;margin:20px auto 0;color:#a34570;line-height:1.7}.signature{margin:18px 0 0;color:#9b8b99;font-size:.88rem}.section-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:17px}.panel{padding:clamp(21px,4vw,30px)}.section-kicker{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--pink-dark);font-weight:750}.panel h2{font-size:clamp(1.7rem,4vw,2.25rem);margin:9px 0 12px}.panel p{color:var(--muted);line-height:1.75;margin:0}.reasons{list-style:none;padding:0;margin:16px 0 0;display:grid;gap:12px}.reasons li{display:flex;gap:10px;align-items:flex-start;line-height:1.55}.reasons li span{color:var(--pink-dark)}.letter{margin-top:16px;background:#fff7fa;border:1px solid var(--line);border-radius:18px;padding:18px;line-height:1.85;color:#665563}.letter p+p{margin-top:12px}.secret{margin-top:17px;text-align:center;background:linear-gradient(135deg,#fff1f6,#f8f4ff);border:1px solid #f3dfe9;border-radius:23px;padding:26px 20px}.secret h2{font-size:2rem;margin:8px 0}.secret-message{display:none;max-width:520px;margin:17px auto 0;padding:18px;background:#ffffffc9;border-radius:17px;line-height:1.85;color:#665563}.secret-message.show{display:block;animation:appear .45s ease}.music-row{display:flex;align-items:center;gap:12px;justify-content:space-between;margin-top:18px;padding:13px 15px;background:#ffffffb8;border:1px solid #f4e3eb;border-radius:17px}.music-row p{font-size:.86rem}.music-button{flex-shrink:0;border:0;border-radius:999px;padding:10px 14px;background:#f0ebff;color:#65549a;font-weight:700}.footer{text-align:center;color:#a292a1;font-size:.8rem;line-height:1.7;padding:22px 10px 0}.heartbit{position:fixed;pointer-events:none;z-index:10;animation:rise 1.9s ease-out forwards;font-size:22px}@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px) rotate(8deg)}}@keyframes rise{0%{opacity:0;transform:translateY(0) scale(.7)}15%{opacity:1}100%{opacity:0;transform:translateY(-160px) scale(1.4) rotate(18deg)}}@keyframes appear{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:650px){.section-grid{grid-template-columns:1fr}.hero{border-radius:25px}.panel{border-radius:24px}.page{width:min(100% - 22px,850px);padding-top:18px}.actions{display:grid;grid-template-columns:1fr}.btn{width:100%}.music-row{align-items:flex-start}.music-row p{max-width:210px}.intro{font-size:.97rem}.f1{left:5%}.f2{right:5%}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<main class="page">
+  <header class="top"><div class="eyebrow">a little corner of the internet <span class="mini-heart">♡</span> made just for you</div></header>
+  <section class="hero" aria-labelledby="main-title">
+    <span class="float f1" aria-hidden="true">✦</span><span class="float f2" aria-hidden="true">♡</span><span class="float f3" aria-hidden="true">✧</span>
+    <div class="heart-icon" aria-hidden="true">♡</div>
+    <h1 id="main-title">Hey, <em>My Love.</em></h1>
+    <p class="intro">If today feels a little heavy, take a tiny pause here. You don't have to smile right away or pretend everything is okay. This little page is just a reminder that you're loved, on every kind of day. 🌷</p>
+    <div class="divider"></div>
+    <div class="love-note"><strong>One little thing I want you to know:</strong><br>You don't have to be happy every second to be loved. Even on your grumpy days, quiet days, and “don't talk to me” days, you still matter so much to me. I want to understand you, not win an argument. We're on the same team. ♡</div>
+    <div class="actions">
+      <button class="btn primary" id="hugBtn">Send you a virtual hug 🤍</button>
+      <button class="btn lav" id="smileBtn">A tiny smile, please ✨</button>
+      <button class="btn" id="sorryBtn">If I hurt you… 🫶</button>
+    </div>
+    <div class="response" id="response" aria-live="polite">P.S. Your feelings are safe with me. We can talk whenever you're ready. ♡</div>
+    <p class="signature">You and me, on the same team. Always learning, always trying. ♡</p>
+    <div class="music-row"><div><strong>🎵 A little soft melody</strong><p id="musicStatus">Tap play for a gentle, original tune. It won't start unless you choose.</p></div><button class="music-button" id="musicBtn" aria-pressed="false">▶ Play music</button></div>
+  </section>
+
+  <div class="section-grid">
+    <section class="panel">
+      <div class="section-kicker">little things, big love</div><h2>Reasons I love you ♡</h2>
+      <p>Not a complete list, because I'd need a whole universe for that.</p>
+      <ul class="reasons">
+        <li><span>♡</span><span>The way you make ordinary moments feel special.</span></li>
+        <li><span>♡</span><span>Your expressions, your laugh, and the little things that are so uniquely you.</span></li>
+        <li><span>♡</span><span>That I get to learn more about you, even when we don't agree.</span></li>
+        <li><span>♡</span><span>You can be your real self with me—no need to be perfect.</span></li>
+        <li><span>♡</span><span>Because you're you. That's already a lot. 🌸</span></li>
+      </ul>
+    </section>
+    <section class="panel">
+      <div class="section-kicker">from my heart to yours</div><h2>A little love letter 💌</h2>
+      <div class="letter">
+        <p>My Love,</p>
+        <p>I know I won't always get everything right. Sometimes I may not understand what you're feeling straight away, but I want to keep trying. Your feelings matter to me, even when I see things differently.</p>
+        <p>You don't owe me a smile just because I made this page. Take your time, tell me what you need, and let me listen. I don't want us to be perfect—I want us to be honest, gentle, and together through the messy moments too.</p>
+        <p>You're special to me on your happiest days and on the days when everything feels annoying. I love you, and I'm choosing to keep learning how to love you better. ♡</p>
+        <p>Yours, with love. 🤍</p>
+      </div>
+    </section>
+  </div>
+
+  <section class="secret">
+    <div class="section-kicker">psst… there's something for you</div><h2>A tiny secret surprise 🎁</h2>
+    <p>There's one more little thing waiting here, just for you.</p>
+    <div style="margin-top:17px"><button class="btn primary" id="surpriseBtn" aria-expanded="false">Open your surprise ♡</button></div>
+    <div class="secret-message" id="secretMessage" aria-live="polite">If I could give you one thing, it would be the chance to see yourself through my eyes for a moment: someone precious, wonderfully one of a kind, and worth showing up for with patience and care. And here's your tiny reminder: even when you're angry, you are allowed to feel what you feel—and you are still so loved. 🥹💕<br><br><strong>One free, unlimited hug from me. Redeem whenever you want. 🤗</strong></div>
+  </section>
+  <div class="footer">Made with a little love and a lot of thought.<br>For My Love, today and on all the ordinary days too. ♡</div>
+</main>
+<script>
+(() => {
+  const response = document.getElementById('response');
+  const messages = {
+    hug: 'Imagine me wrapping you in the biggest, warmest hug. No fixing, no pressure—just a hug until you feel a little lighter. 🤍',
+    smile: 'A tiny smile coupon, just for you 🌷 Redeemable for silly jokes, forehead kisses, snacks, or absolutely nothing but company.',
+    sorry: 'I’m sorry if I hurt you. I don’t want to dismiss your feelings or rush you to feel better. I’m ready to listen, understand, and do better—not just say sorry. 🫶'
+  };
+  document.getElementById('hugBtn').addEventListener('click', () => { response.textContent = messages.hug; hearts('🤍'); });
+  document.getElementById('smileBtn').addEventListener('click', () => { response.textContent = messages.smile; hearts('✨'); });
+  document.getElementById('sorryBtn').addEventListener('click', () => { response.textContent = messages.sorry; hearts('🌷'); });
+  const surpriseBtn = document.getElementById('surpriseBtn');
+  const surprise = document.getElementById('secretMessage');
+  surpriseBtn.addEventListener('click', () => {
+    const opened = surprise.classList.toggle('show');
+    surpriseBtn.setAttribute('aria-expanded', String(opened));
+    surpriseBtn.textContent = opened ? 'Close your surprise ♡' : 'Open your surprise ♡';
+    if (opened) hearts('💗');
+  });
+  function hearts(symbol) {
+    for (let i=0; i<9; i++) {
+      const el=document.createElement('span'); el.className='heartbit'; el.textContent=symbol;
+      el.style.left=(10+Math.random()*80)+'vw'; el.style.top=(50+Math.random()*38)+'vh';
+      el.style.animationDelay=(Math.random()*.3)+'s'; document.body.appendChild(el);
+      window.setTimeout(()=>el.remove(),2200);
+    }
+  }
+
+  // A soft, original melody generated locally with Web Audio; no external files or tracking.
+  let audioContext=null, timers=[], playing=false, noteIndex=0, master=null;
+  const musicBtn=document.getElementById('musicBtn');
+  const musicStatus=document.getElementById('musicStatus');
+  const notes=[261.63,329.63,392.00,329.63,293.66,349.23,440.00,349.23,261.63,329.63,392.00,523.25,440.00,392.00,329.63,293.66];
+  function playNote(freq, when, duration) {
+    const osc=audioContext.createOscillator(); const gain=audioContext.createGain();
+    osc.type='sine'; osc.frequency.setValueAtTime(freq,when);
+    gain.gain.setValueAtTime(0.0001,when); gain.gain.exponentialRampToValueAtTime(0.055,when+0.06);
+    gain.gain.exponentialRampToValueAtTime(0.0001,when+duration);
+    osc.connect(gain); gain.connect(master); osc.start(when); osc.stop(when+duration+0.03);
+  }
+  function scheduleMelody(){
+    if(!playing)return;
+    const now=audioContext.currentTime;
+    for(let i=0;i<4;i++) playNote(notes[(noteIndex+i)%notes.length],now+i*.42,.55);
+    noteIndex=(noteIndex+4)%notes.length;
+    timers.push(window.setTimeout(scheduleMelody,1680));
+  }
+  function stopMusic(){playing=false;timers.forEach(window.clearTimeout);timers=[];if(master&&audioContext){master.gain.setTargetAtTime(0.0001,audioContext.currentTime,.08)}musicBtn.textContent='▶ Play music';musicBtn.setAttribute('aria-pressed','false');musicStatus.textContent='Melody paused. Tap play whenever you want a little music.';}
+  musicBtn.addEventListener('click',async()=>{
+    if(playing){stopMusic();return;}
+    try{
+      const AudioCtx=window.AudioContext||window.webkitAudioContext;
+      if(!AudioCtx){musicStatus.textContent='This browser does not support the music feature, but the rest of the page works just fine. ♡';return;}
+      if(!audioContext)audioContext=new AudioCtx();
+      await audioContext.resume();
+      master=audioContext.createGain();master.gain.value=.35;master.connect(audioContext.destination);
+      playing=true;musicBtn.textContent='Ⅱ Pause music';musicBtn.setAttribute('aria-pressed','true');musicStatus.textContent='A soft little tune, made just for this page. ♡';scheduleMelody();
+    }catch(e){musicStatus.textContent='Music could not start in this browser. You can still enjoy the page. ♡';}
+  });
+  window.addEventListener('pagehide',()=>{stopMusic();if(audioContext)audioContext.close();});
+})();
+</script>
+</body>
+</html>
